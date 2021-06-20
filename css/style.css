@@ -89,7 +89,7 @@
     color: #f4511e !important;
 }
 .row2{
-    padding: 90px 60px;
+    padding: 60px 50px;
     margin: 0;
     font-family: Lato, sans-serif;
 }
@@ -126,6 +126,9 @@
 .row4{
     padding: 60px 50px;
     margin: 0 0 0 0 ;
+}
+.text-center{
+    padding: 60px 50px;
 }
 .text-center h4{
  margin: 20px 0 30px;
