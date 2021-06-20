@@ -8,9 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet active" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+
     <link href="css/font.css" rel="stylesheet" type="text/css">
     <link href="css/fontlato.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
 
     <title>Hello, world!</title>
 </head>
@@ -50,8 +52,8 @@
             <!------jumbotron------>
 
     <div class="jumbotron text-center" id="six">
-                <h1>Company</h1>
-                <p>We specialize in blablabla</p>
+                <h1 class="animate__animated animate__bounce">Company</h1>
+                <p class="animate__animated animate__bounceInUp">We specialize in blablabla</p>
                 <form class="form-inline ">
                     <div class="input-group">
                         <input type="email" class="form-control" size="50" placeholder="Email Address">
@@ -66,7 +68,7 @@
 
         <div class="row row1">
             <div class="col-md-8 col-12 " id="one">
-                <h2>ABOUT COMPANY PAGE</h2>
+                <h2 class="animate animate__bounceInUp">ABOUT COMPANY PAGE</h2>
                 <br>
                 <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <br>
@@ -80,8 +82,8 @@
         </div>
             <!------main section 2------>
             <div class="row row2">
-                 <div class="col-md-4 col-12 icon2">
-                     <i class="fa fa-globe-americas fa-10x"></i>
+                 <div class="col-md-4 col-12 icon2 wow slideInRight">
+                     <i class="fa fa-globe-americas fa-10x "></i>
                  </div>
                  <div class="col-md-8 col-12">
                      <h2>OUR VALUES</h2>
@@ -319,7 +321,10 @@
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+            <script src="js/wow.min.js"></script>
+            <script>
+                new WOW().init();
+            </script>
 </body>
 <footer class="con text-center foot">
     <button class="btn"><ul class="list-group">
