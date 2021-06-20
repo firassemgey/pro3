@@ -1,0 +1,319 @@
+.body{
+    font: 400 15px Lato, sans-serif;
+    font-family: Lato, sans-serif;
+    line-height: 1.8;
+    position: relative;
+}
+.navbar {
+    background-color: #f4511e!important;
+    font-family: Montserrat, sans-serif;
+    padding: 0;
+    letter-spacing: 4px;
+
+}
+.navbar-brand {
+    font-size: 18px;
+    border-radius: 0;
+    padding-left: 80px!important;
+
+}
+.navbar-nav{
+    padding-right: 70px;
+}
+.nav-item .active{
+    color: #f4511e!important;
+    background-color:rgb(255,255,255)!important;
+}
+.nav-link {
+    color: rgb(255,255,255)!important;
+    padding: 15px!important;
+    font-size: 12px;
+}
+ .nav-link:hover {
+    color: #f4511e!important;
+    background-color:rgb(255,255,255)!important;
+}
+/*############### end navbar ################*/
+.jumbotron {
+    background-color: #f4511e!important;
+    border-radius: 0;
+    color: #fff!important;
+    font-family: Montserrat, sans-serif;
+    margin: 0 0 30px;
+    padding: 85px!important;
+
+}
+.jumbotron h1{
+    font-size: 63px;
+}
+.jumbotron p{
+    font-size: 21px;
+    color: #fff!important;
+}
+.form-inline{
+    justify-content: center;
+
+}
+.form-inline .form-control{
+    font-size: 14px;
+}
+.row1{
+    padding: 60px 50px;
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+.row1 h2{
+    color: #303030;
+    font-weight: 600;
+    margin:20px 0 30px;
+    font-size: 24px;
+}
+.row1 .p1{
+    font-size: 19px;
+    color: #303030;
+    margin: 10px 0 30px;
+}
+.row2 .p2 {
+    color: #818181;
+    margin: 0 0 10px;
+}
+.row1 .btn {
+    font-size: 18px;
+    padding: 10px 16px;
+    color: #333;
+    border-radius: 8px;
+}
+.row1 .fa {
+    font-weight: bold;
+    font-size: 200px;
+    color: #f4511e !important;
+}
+.row2{
+    padding: 90px 60px;
+    margin: 0;
+    font-family: Lato, sans-serif;
+}
+
+.row2 h2{
+    color: #303030;
+    font-weight: 600;
+    margin:20px 0 30px;
+    font-size: 24px;
+}
+.row2 .p1{
+    font-size: 19px;
+    color: #303030;
+    margin: 10px 0 30px;
+}
+.row2 .p2 {
+    color: #818181;
+    margin: 0 0 10px;
+}
+.row2 .btn{
+    font-size: 18px;
+    padding: 10px 16px;
+    color: #333;
+    border-radius: 8px;
+}
+.row2 .fa{
+    font-weight: bold;
+    font-size: 200px;
+    color: #f4511e!important;
+}
+.row2{
+    background-color: #f6f6f6;
+}
+.row4{
+    padding: 60px 50px;
+    margin: 0 0 0 0 ;
+}
+.text-center h4{
+ margin: 20px 0 30px;
+}
+.text-center .hd5{
+    margin: 10px 0 60px;
+}
+.row3{
+    margin: 0;
+}
+ .row3 .i1{
+    padding: 0 0 0 15px;
+}
+.row3 i{
+    color:#f4511e!important;
+}
+.row3 h5{
+    margin: 15px 0 35px;
+}
+.row3 p{
+    padding-bottom: 15px;
+}
+.row4{
+    background-color:#f6f6f6 ;
+}
+.row4 .card{
+    border: none;
+    border-radius: 0;
+}
+.row4 .card-body  p{
+    margin-bottom: 10px;
+    color: #818181;
+}
+.row4 .h4{
+    padding-top: 40px!important;;
+}
+.row4 .carousel .li1{
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    border: #f4511e 1px solid;
+    opacity: 1;
+
+}
+.row4 .carousel .active {
+    background-color: #f4511e!important;
+}
+.row4 .carousel .carousel-item{
+    padding: 70px 0 0 0;
+    background:#f6f6f6!important;
+}
+.row4 .carousel .carousel-item p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background:#f6f6f6!important;
+}
+.row4 .carousel  .carousel-control-prev ,.carousel-control-next i{
+    font-weight: bold;
+    color: #f4511e !important;
+}
+.price0{
+    padding: 20px 50px !important;
+}
+.price .display-4{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.price .p1{
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+}
+.container{
+    margin: 0;
+}
+.cd1{
+padding: 0;
+}
+.card{
+    border: 1px solid #f4511e;
+    border-radius: 0 !important;
+    transition: box-shadow 0.5s;
+}
+.card:hover{
+    box-shadow: 5px 0 40px rgba(0, 0, 0 , 0.2) !important;
+}
+
+.card .card-header{
+    color: #fff !important;
+    background-color: #f4511e !important;
+    padding: 25px;
+    border-radius: 0;
+}
+.card .card-header h4{
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.price0 .card-body{
+    padding: 0 0 20px ;
+}
+.price0 .card-body li, h2, p{
+    margin: 0 0 10px;
+    color: #818181;
+
+}
+.price0 .card-body .btn-primary{
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+.price0 .card-body .btn-primary:hover{
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+.price0 .card-body .btn-primary{
+    border: none;
+}
+.bg-grey{
+    background-color: #f6f6f6;
+    padding: 50px;
+}
+.bg-grey h2{
+    font-family: Lato, sans-serif;
+    margin: 10px 0 20px;
+    font-size: 24px;
+    color: #303030;
+    font-weight: 600;
+}
+.foot{
+    padding: 50px 50px;
+    margin: 15px;
+}
+.foot .btn .list-group .list-group-item{
+    border: 0;
+    padding: 0;
+}
+.foot .btn .list-group .list-group-item a {
+    color: #f4511e ;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+.foot .btn i{
+    font-weight: bold;
+}
+@media (max-width: 575.98px) {
+        .navbar-brand{
+        padding-left: 10px!important;
+    }
+    .jumbotron h1{
+        font-size: 3rem;
+    }
+    .jumbotron p{
+        font-size:1rem;
+    }
+    .row1 h2{
+        font-size: 1.3rem;
+    }
+    .row1 .btn{
+        font-size: 15px;
+    }
+    .row1 .icon1 .fa-signal{
+        font-size: 140px;
+        padding: 20px 30px;
+    }
+    .row2 .icon2{
+        font-size: 110px;
+        padding: 20px 50px;
+    }
+    .row2 .btn{
+        font-size: 15px;
+    }
+    .price0 .card-deck{
+        padding: 40px;
+
+    }
+    .price0 .card-deck h2{
+        font-size: 20px;
+        margin: 0px;
+    }
+    .price0 .card-deck .btn{
+        margin: 0px;
+    }
+
+
+}
