@@ -165,6 +165,9 @@
 .row4 .h4{
     padding-top: 40px!important;;
 }
+.row4 .carousel-indicators{
+    bottom: -46px;
+}
 .row4 .carousel .li1{
     border-radius: 50%;
     height: 10px;
@@ -184,6 +187,12 @@
     padding-bottom: 0;
     margin-bottom: 0;
     background:#f6f6f6!important;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.row4 .con{
+    bottom: -59px;
 }
 .row4 .carousel  .carousel-control-prev ,.carousel-control-next i{
     font-weight: bold;
@@ -192,6 +201,7 @@
 .price0{
     padding: 20px 50px !important;
 }
+
 .price .display-4{
     font-size: 24px;
     text-transform: uppercase;
